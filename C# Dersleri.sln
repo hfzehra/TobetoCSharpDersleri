@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsalSayi", "AsalSayi\AsalSayi.csproj", "{0411FFA9-09AC-4541-A8A4-A919C5BA11D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{D46E8F6B-C176-4E0C-A06B-BCFB7436B7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0411FFA9-09AC-4541-A8A4-A919C5BA11D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0411FFA9-09AC-4541-A8A4-A919C5BA11D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0411FFA9-09AC-4541-A8A4-A919C5BA11D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46E8F6B-C176-4E0C-A06B-BCFB7436B7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46E8F6B-C176-4E0C-A06B-BCFB7436B7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46E8F6B-C176-4E0C-A06B-BCFB7436B7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46E8F6B-C176-4E0C-A06B-BCFB7436B7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
