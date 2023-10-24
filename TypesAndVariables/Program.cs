@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             //Value Type
-
             // RAM'de yer kaplamalarına göre :
             // long > int > short > byte
             int number1 = 2147483647;
