@@ -10,10 +10,25 @@
             //IPerson person = new Customer();
 
             //İnterface de hangi veritabanına eklemek istiyorsak ona ekliyoruz
+            //Demo();
+
+            //ICustomerDal[] customerDals = new[2] 
+            //{
+            //    new SqlServerCustomerDal() ,
+            //    new MySqlCustomerDal()
+            //};
+
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+            Console.ReadLine();
+        }
+
+        private static void Demo()
+        {
             CustomeManager manager = new CustomeManager();
             manager.Add(new SqlServerCustomerDal());
-
-            Console.ReadLine();
         }
 
         private static void InterfacesIntro()

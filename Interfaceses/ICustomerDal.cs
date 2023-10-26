@@ -32,6 +32,24 @@ namespace Interfaceses
         }
     }
 
+    class MySqlCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("SQL added");
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("SQL Updated");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("SQL Deleted");
+        }
+    }
+
     class CustomeManager
     {
         public void Add(ICustomerDal customerDal)
