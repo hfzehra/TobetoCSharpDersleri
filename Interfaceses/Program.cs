@@ -12,11 +12,11 @@
             //İnterface de hangi veritabanına eklemek istiyorsak ona ekliyoruz
             //Demo();
 
-            //ICustomerDal[] customerDals = new[2] 
-            //{
-            //    new SqlServerCustomerDal() ,
-            //    new MySqlCustomerDal()
-            //};
+            ICustomerDal[] customerDals = new ICustomerDal[2] 
+            {
+                new SqlServerCustomerDal() ,
+                new MySqlCustomerDal()
+            };
 
             foreach (var customerDal in customerDals)
             {
